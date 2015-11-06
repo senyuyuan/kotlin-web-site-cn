@@ -5,34 +5,41 @@ category: FAQ
 title: FAQ
 ---
 
-# FAQ
+# 常见问题
 
-## Common Questions
+## 常见问题
 
-### What is Kotlin?
+### Kotlin是什么？
 
-Kotlin is a statically typed language that targets the JVM and JavaScript. It is a general-purpose language intended for industry use.
+1、一种静态类型语言。
 
-It is developed by a team at JetBrains although it is an OSS language and has external contributors.
+2、可运行于JVM和JavaScript虚拟机。
 
-### Why a new language?
+3、工业用途的通用语言。
 
-At JetBrains, we’ve been developing for the Java platform for a long time, and we know how good it is.
-On the other hand, we know that the Java programming language has certain limitations and problems that are either impossible
-or very hard to fix due to backward-compatibility issues. We know that Java is going to stand long,
-but we believe that the community can benefit from a new statically typed JVM-targeted language free of the
-legacy trouble and having the features so desperately wanted by the developers.
+4、由JetBrains公司的团队开发和维护。
+
+5、开源语言，并且有外部贡献者。
 
 
-The main design goals behind this project are
+### 为什么需要一个新语言？
 
-* To create a Java-compatible language,
-* That compiles at least as fast as Java,
+在JetBrains公司，我们已经在Java平台上开发很长时间了，深知Java是多么的好。
+
+另一方面，我们也知道了Java编程语言有某些局限和问题，它们因为向后兼容问题而无法或很难修复。
+
+我们知道Java还会坚持很久，但我们相信社区会受益于一个新的运行于JVM的静态类型语言，从而免于遗留问题和获得开发者们迫切渴求的特性。
+
+
+该项目蕴含的主要设计思想是：
+
+* 兼容Java
+* 编译速度至少和Java一样快
 * Make it safer than Java, i.e. statically check for common pitfalls such as null pointer dereference,
 * Make it more concise than Java by supporting variable type inference, higher-order functions (closures), extension functions, mixins and first-class delegation, etc;
 * And, keeping the useful level of expressiveness (see above), make it way simpler than the most mature competitor – Scala.
 
-### How is it licensed?
+### 如何授权？
 
 Kotlin is an OSS language and is licensed under the Apache 2 OSS License. The IntelliJ Plug-in is also OSS.
 
